@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { IoIosAddCircle } from "react-icons/io";
 
 function AppTodo({onNewItem}){
   const [todoName, setTodoName] = useState();
@@ -28,7 +29,7 @@ function AppTodo({onNewItem}){
   <div className="col-2">
   <button type="button" className="btn btn-success kg-button"
   onClick={handelAddButtonClicked}
-  >Success</button>
+  ><IoIosAddCircle /> </button>
   </div>
 </div>
 </div>
